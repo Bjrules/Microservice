@@ -7,7 +7,7 @@ pipeline {
                 script {
                     dir('src') {
 
-                    withDockerRegistry(credentialsId: 'docker-cred') {
+                    withDockerRegistry(credentialsId: 'docker-cred', toolName: 'docker') {
                         sh "docker build -t bjrules/cartservice:latest ."
                     }
                         }
