@@ -1,5 +1,7 @@
 README.md file for microservices project   
-This Repo contains 13 branches. each brach contains various features for the online E-commerce Shopping website. the `infra-Steps` branch contains guide for the setup of kubernetes using cloudformation with eksctl. 
+This Repo contains 13 branches. each brach contains various features for the online E-commerce Shopping website. the `infra-Steps` branch contains guide for the setup of kubernetes using cloudformation with eksctl and RBAC configuration. 
+
+
 
 create an EC2 to serve as infra and jenkins 
 > create the IAM user and attach the policies to it 
