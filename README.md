@@ -4,6 +4,7 @@ This Repo contains 13 branches. each brach contains various features for the onl
 
 
 create an EC2 to serve as infra and jenkins 
+install Jenkins, Docker
 > create the IAM user and attach the policies to it 
 > see the setup-infra.md documentation for this.
 
@@ -54,7 +55,8 @@ install jenkins and install the following plugins
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260812_133912.png)
 
-**Setup RBAC**
+**Setup RBAC**        Also remember to do: `sudo chmod 666 /var/run/docker.sock` so as to enble users to use docker
+
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260812_134029.png)
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260812_134005.png)
@@ -65,6 +67,8 @@ install jenkins and install the following plugins
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260812_140851.png)
 
+use this command to destroy the cluster `eksctl delete cluster --name babade-cluster --region us-east-1`
 
+    
 # Thank you
 
