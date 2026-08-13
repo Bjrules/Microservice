@@ -17,6 +17,8 @@ install : awscli , kubectl , and eksctl .
 
 **create EKS Cluster but this time, with eksctl(cloudformation)**
 
+Created `babade-cluster`  using eksctl(cloudformation)
+
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260811_152739.png)
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260811_153957.png)
@@ -60,6 +62,6 @@ install jenkins and install the following plugins
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260812_140851.png)
 
-Created `babade-cluster`  using eksctl(cloudformation)
+
 # Thank you
 
