@@ -37,7 +37,8 @@ install jenkins and install the following plugins
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260811_163619.png)
 
-##### create and configure webhook trigger
+##### create and configure  multibranch webhook trigger
+> This will trigger a build should any change be made in any branch of the repo
 
 ![alt text](IMG0SCREENSHOTS/Screenshot_20260812_034926.png)
 
